@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FCFE1872A26A2DE00839B70 /* ComicVerseData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCFE1862A26A2DE00839B70 /* ComicVerseData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FCFE1942A26A31100839B70 /* ComicVerseDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCFE1932A26A2FA00839B70 /* ComicVerseDomain.framework */; };
+		3FCFE1952A26A31100839B70 /* ComicVerseDomain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCFE1932A26A2FA00839B70 /* ComicVerseDomain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FCFE19B2A26A36200839B70 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE19A2A26A36200839B70 /* Data+Extensions.swift */; };
+		3FCFE19D2A26A3E200839B70 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE19C2A26A3E200839B70 /* HTTPError.swift */; };
+		3FCFE19F2A26A46600839B70 /* HTTPGetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE19E2A26A46600839B70 /* HTTPGetClient.swift */; };
+		3FCFE1AB2A26ABFB00839B70 /* RemoteGetCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1AA2A26ABFB00839B70 /* RemoteGetCharacters.swift */; };
+		3FCFE1AD2A26AC0600839B70 /* RemoteGetCommics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1AC2A26AC0600839B70 /* RemoteGetCommics.swift */; };
+		3FCFE1AF2A26AC1500839B70 /* RemoteCreators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1AE2A26AC1500839B70 /* RemoteCreators.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCFE1922A26A2FA00839B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCFE18E2A26A2FA00839B70 /* ComicVerseDomain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FCFE1562A26893C00839B70;
+			remoteInfo = ComicVerseDomain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FCFE1962A26A31100839B70 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FCFE1952A26A31100839B70 /* ComicVerseDomain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FCFE1832A26A2DE00839B70 /* ComicVerseData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComicVerseData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCFE1862A26A2DE00839B70 /* ComicVerseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComicVerseData.h; sourceTree = "<group>"; };
+		3FCFE18E2A26A2FA00839B70 /* ComicVerseDomain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ComicVerseDomain.xcodeproj; path = ../../ComicVerseDomain/ComicVerseDomain.xcodeproj; sourceTree = "<group>"; };
+		3FCFE19A2A26A36200839B70 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		3FCFE19C2A26A3E200839B70 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		3FCFE19E2A26A46600839B70 /* HTTPGetClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPGetClient.swift; sourceTree = "<group>"; };
+		3FCFE1AA2A26ABFB00839B70 /* RemoteGetCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGetCharacters.swift; sourceTree = "<group>"; };
+		3FCFE1AC2A26AC0600839B70 /* RemoteGetCommics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGetCommics.swift; sourceTree = "<group>"; };
+		3FCFE1AE2A26AC1500839B70 /* RemoteCreators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCreators.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCFE1802A26A2DE00839B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCFE1942A26A31100839B70 /* ComicVerseDomain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCFE1792A26A2DE00839B70 = {
+			isa = PBXGroup;
+			children = (
+				3FCFE1852A26A2DE00839B70 /* ComicVerseData */,
+				3FCFE1842A26A2DE00839B70 /* Products */,
+				3FCFE18D2A26A2FA00839B70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCFE1842A26A2DE00839B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE1832A26A2DE00839B70 /* ComicVerseData.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCFE1852A26A2DE00839B70 /* ComicVerseData */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE1992A26A35200839B70 /* HTTP */,
+				3FCFE1982A26A34C00839B70 /* UseCases */,
+				3FCFE1972A26A34300839B70 /* Helpers */,
+				3FCFE1862A26A2DE00839B70 /* ComicVerseData.h */,
+			);
+			path = ComicVerseData;
+			sourceTree = "<group>";
+		};
+		3FCFE18D2A26A2FA00839B70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE18E2A26A2FA00839B70 /* ComicVerseDomain.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FCFE18F2A26A2FA00839B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE1932A26A2FA00839B70 /* ComicVerseDomain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCFE1972A26A34300839B70 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE19A2A26A36200839B70 /* Data+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3FCFE1982A26A34C00839B70 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE1AA2A26ABFB00839B70 /* RemoteGetCharacters.swift */,
+				3FCFE1AC2A26AC0600839B70 /* RemoteGetCommics.swift */,
+				3FCFE1AE2A26AC1500839B70 /* RemoteCreators.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		3FCFE1992A26A35200839B70 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE19C2A26A3E200839B70 /* HTTPError.swift */,
+				3FCFE19E2A26A46600839B70 /* HTTPGetClient.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FCFE17E2A26A2DE00839B70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCFE1872A26A2DE00839B70 /* ComicVerseData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FCFE1822A26A2DE00839B70 /* ComicVerseData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCFE18A2A26A2DE00839B70 /* Build configuration list for PBXNativeTarget "ComicVerseData" */;
+			buildPhases = (
+				3FCFE17E2A26A2DE00839B70 /* Headers */,
+				3FCFE17F2A26A2DE00839B70 /* Sources */,
+				3FCFE1802A26A2DE00839B70 /* Frameworks */,
+				3FCFE1812A26A2DE00839B70 /* Resources */,
+				3FCFE1962A26A31100839B70 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComicVerseData;
+			productName = ComicVerseData;
+			productReference = 3FCFE1832A26A2DE00839B70 /* ComicVerseData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCFE17A2A26A2DE00839B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3FCFE1822A26A2DE00839B70 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 3FCFE17D2A26A2DE00839B70 /* Build configuration list for PBXProject "ComicVerseData" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCFE1792A26A2DE00839B70;
+			productRefGroup = 3FCFE1842A26A2DE00839B70 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3FCFE18F2A26A2FA00839B70 /* Products */;
+					ProjectRef = 3FCFE18E2A26A2FA00839B70 /* ComicVerseDomain.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3FCFE1822A26A2DE00839B70 /* ComicVerseData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3FCFE1932A26A2FA00839B70 /* ComicVerseDomain.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ComicVerseDomain.framework;
+			remoteRef = 3FCFE1922A26A2FA00839B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCFE1812A26A2DE00839B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCFE17F2A26A2DE00839B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCFE1AF2A26AC1500839B70 /* RemoteCreators.swift in Sources */,
+				3FCFE1AB2A26ABFB00839B70 /* RemoteGetCharacters.swift in Sources */,
+				3FCFE1AD2A26AC0600839B70 /* RemoteGetCommics.swift in Sources */,
+				3FCFE19F2A26A46600839B70 /* HTTPGetClient.swift in Sources */,
+				3FCFE19D2A26A3E200839B70 /* HTTPError.swift in Sources */,
+				3FCFE19B2A26A36200839B70 /* Data+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FCFE1882A26A2DE00839B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FCFE1892A26A2DE00839B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FCFE18B2A26A2DE00839B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NXZ6YP6W9M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trtechnology.ComicVerseData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3FCFE18C2A26A2DE00839B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NXZ6YP6W9M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trtechnology.ComicVerseData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCFE17D2A26A2DE00839B70 /* Build configuration list for PBXProject "ComicVerseData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCFE1882A26A2DE00839B70 /* Debug */,
+				3FCFE1892A26A2DE00839B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCFE18A2A26A2DE00839B70 /* Build configuration list for PBXNativeTarget "ComicVerseData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCFE18B2A26A2DE00839B70 /* Debug */,
+				3FCFE18C2A26A2DE00839B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCFE17A2A26A2DE00839B70 /* Project object */;
+}
