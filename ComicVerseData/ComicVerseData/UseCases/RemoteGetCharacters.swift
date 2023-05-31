@@ -17,7 +17,7 @@ public final class RemoteGetCharacters: GetCharacters {
         self.httpClient = httpClient
     }
     
-    public func getCharactersModel(_ charactersModel: GetCharactersModel, completion: @escaping (GetCharacters.Result) -> Void) {
+    public func getCharactersModel(_ charactersModel: CharactersModel, completion: @escaping (GetCharacters.Result) -> Void) {
         httpClient.get(to: url, with: charactersModel.toData()) { [weak self] result in
             guard self != nil else { return }
             switch result {

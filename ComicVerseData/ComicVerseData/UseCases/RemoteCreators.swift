@@ -17,7 +17,7 @@ public final class RemoteGetCreators: GetCreators {
         self.httpCient = httpCient
     }
     
-    public func getCreators(_ getCreators: GetCreatorsModel, completion: @escaping (GetCreators.Result) -> Void) {
+    public func getCreators(_ getCreators: CreatorsModel, completion: @escaping (GetCreators.Result) -> Void) {
         httpCient.get(to: url, with: getCreators.toData()) { [weak self] result in
             guard self != nil else { return }
             switch result {
