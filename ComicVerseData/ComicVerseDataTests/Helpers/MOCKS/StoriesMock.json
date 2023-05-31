@@ -1,0 +1,95 @@
+{
+  "id": 123,
+  "title": "Amazing Story",
+  "description": "An incredible story that will leave readers on the edge of their seats!",
+  "resourceURI": "http://example.com/stories/123",
+  "type": "interior story",
+  "modified": "2023-05-30T12:00:00Z",
+  "thumbnail": {
+    "path": "http://example.com/thumbnails/123",
+    "extension": "jpg"
+  },
+  "comics": {
+    "available": 3,
+    "collectionURI": "http://example.com/stories/123/comics",
+    "items": [
+      {
+        "resourceURI": "http://example.com/comics/1",
+        "name": "Comic 1"
+      },
+      {
+        "resourceURI": "http://example.com/comics/2",
+        "name": "Comic 2"
+      },
+      {
+        "resourceURI": "http://example.com/comics/3",
+        "name": "Comic 3"
+      }
+    ]
+  },
+  "series": {
+    "available": 2,
+    "collectionURI": "http://example.com/stories/123/series",
+    "items": [
+      {
+        "resourceURI": "http://example.com/series/1",
+        "name": "Series 1"
+      },
+      {
+        "resourceURI": "http://example.com/series/2",
+        "name": "Series 2"
+      }
+    ]
+  },
+  "events": {
+    "available": 1,
+    "collectionURI": "http://example.com/stories/123/events",
+    "items": [
+      {
+        "resourceURI": "http://example.com/events/1",
+        "name": "Event 1"
+      }
+    ]
+  },
+  "characters": {
+    "available": 4,
+    "collectionURI": "http://example.com/stories/123/characters",
+    "items": [
+      {
+        "resourceURI": "http://example.com/characters/1",
+        "name": "Character 1"
+      },
+      {
+        "resourceURI": "http://example.com/characters/2",
+        "name": "Character 2"
+      },
+      {
+        "resourceURI": "http://example.com/characters/3",
+        "name": "Character 3"
+      },
+      {
+        "resourceURI": "http://example.com/characters/4",
+        "name": "Character 4"
+      }
+    ]
+  },
+  "creators": {
+    "available": 2,
+    "collectionURI": "http://example.com/stories/123/creators",
+    "items": [
+      {
+        "resourceURI": "http://example.com/creators/1",
+        "name": "Creator 1"
+      },
+      {
+        "resourceURI": "http://example.com/creators/2",
+        "name": "Creator 2"
+      }
+    ]
+  },
+  "originalissue": {
+    "resourceURI": "http://example.com/comics/1",
+    "name": "Comic 1"
+  }
+}
+
