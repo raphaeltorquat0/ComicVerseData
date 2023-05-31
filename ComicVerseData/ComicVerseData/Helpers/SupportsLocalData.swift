@@ -6,18 +6,20 @@
 //
 
 import Foundation
+import ComicVerseDomain
 
-struct readingDataFrom{
+struct readingDataFrom: Codable {
     
-    func loadFromLocalMock(for name: String) -> Data? {
+    func localMock(for name: String) async throws -> Data? {
         do {
-            if let bundlePath = Bundle.main(forResource: name, offType: "json") {
-                let mockData = try String(contentsOfFile: bundlePath).data(using: .utf8)
-                return mockData
+            if let filePath = Bundle.main.path(forResource: name, ofType: "json") {
+                let fileURL = URL(fileURLWithPath: filePath)
+                let data = try Data(contentsOf: fileURL)
+                return data
             }
         } catch {
-            print(error.localizedDescription)
+            print("error: \(error)")
         }
+        return nil
     }
-    
 }

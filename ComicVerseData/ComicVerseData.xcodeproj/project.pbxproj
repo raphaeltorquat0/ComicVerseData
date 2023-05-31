@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F702BB72A27E84E00C0688A /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F702BB62A27E84E00C0688A /* HTTPClientSpy.swift */; };
 		3FB9F5E12A27659C00C4DC5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB9F5DF2A27659C00C4DC5F /* XCTest.framework */; };
 		3FB9F5E22A27659C00C4DC5F /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB9F5DF2A27659C00C4DC5F /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3FB9F5E52A2766B700C4DC5F /* CharactersMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9F5E42A2766B700C4DC5F /* CharactersMock.json */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F702BB62A27E84E00C0688A /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		3FB9F5DF2A27659C00C4DC5F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3FB9F5E42A2766B700C4DC5F /* CharactersMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CharactersMock.json; sourceTree = "<group>"; };
 		3FB9F5E62A2766F400C4DC5F /* ComicsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ComicsMock.json; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 		3FCFE1B42A275DBA00839B70 /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
+				3F702BB62A27E84E00C0688A /* HTTPClientSpy.swift */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F702BB72A27E84E00C0688A /* HTTPClientSpy.swift in Sources */,
 				3FCFE1AF2A26AC1500839B70 /* RemoteCreators.swift in Sources */,
 				3FCFE1AB2A26ABFB00839B70 /* RemoteGetCharacters.swift in Sources */,
 				3FE216D32A2764E50053E612 /* GetCharactersFactory.swift in Sources */,
