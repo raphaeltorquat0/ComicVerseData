@@ -18,6 +18,9 @@
 		3FCFE1AF2A26AC1500839B70 /* RemoteCreators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1AE2A26AC1500839B70 /* RemoteCreators.swift */; };
 		3FCFE1B72A275E4B00839B70 /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1B62A275E4B00839B70 /* XCTestCase+Extension.swift */; };
 		3FCFE1B92A275ED000839B70 /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1B82A275ED000839B70 /* TestFactories.swift */; };
+		3FCFE1BB2A275FF400839B70 /* GetCharactersModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1BA2A275FF400839B70 /* GetCharactersModelFactory.swift */; };
+		3FCFE1BD2A27601100839B70 /* GetCommicsModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1BC2A27601100839B70 /* GetCommicsModelFactory.swift */; };
+		3FCFE1BF2A27602700839B70 /* GetCreatorsModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1BE2A27602700839B70 /* GetCreatorsModelFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		3FCFE1AE2A26AC1500839B70 /* RemoteCreators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCreators.swift; sourceTree = "<group>"; };
 		3FCFE1B62A275E4B00839B70 /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extension.swift"; sourceTree = "<group>"; };
 		3FCFE1B82A275ED000839B70 /* TestFactories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactories.swift; sourceTree = "<group>"; };
+		3FCFE1BA2A275FF400839B70 /* GetCharactersModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharactersModelFactory.swift; sourceTree = "<group>"; };
+		3FCFE1BC2A27601100839B70 /* GetCommicsModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommicsModelFactory.swift; sourceTree = "<group>"; };
+		3FCFE1BE2A27602700839B70 /* GetCreatorsModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreatorsModelFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,9 @@
 			children = (
 				3FCFE1B62A275E4B00839B70 /* XCTestCase+Extension.swift */,
 				3FCFE1B82A275ED000839B70 /* TestFactories.swift */,
+				3FCFE1BA2A275FF400839B70 /* GetCharactersModelFactory.swift */,
+				3FCFE1BC2A27601100839B70 /* GetCommicsModelFactory.swift */,
+				3FCFE1BE2A27602700839B70 /* GetCreatorsModelFactory.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -272,11 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCFE1BB2A275FF400839B70 /* GetCharactersModelFactory.swift in Sources */,
 				3FCFE1AF2A26AC1500839B70 /* RemoteCreators.swift in Sources */,
 				3FCFE1AB2A26ABFB00839B70 /* RemoteGetCharacters.swift in Sources */,
 				3FCFE1AD2A26AC0600839B70 /* RemoteGetCommics.swift in Sources */,
 				3FCFE19F2A26A46600839B70 /* HTTPGetClient.swift in Sources */,
+				3FCFE1BD2A27601100839B70 /* GetCommicsModelFactory.swift in Sources */,
 				3FCFE19D2A26A3E200839B70 /* HTTPError.swift in Sources */,
+				3FCFE1BF2A27602700839B70 /* GetCreatorsModelFactory.swift in Sources */,
 				3FCFE1B72A275E4B00839B70 /* XCTestCase+Extension.swift in Sources */,
 				3FCFE1B92A275ED000839B70 /* TestFactories.swift in Sources */,
 				3FCFE19B2A26A36200839B70 /* Data+Extensions.swift in Sources */,
