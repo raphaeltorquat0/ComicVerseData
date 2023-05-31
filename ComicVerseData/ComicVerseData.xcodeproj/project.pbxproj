@@ -16,6 +16,8 @@
 		3FCFE1AB2A26ABFB00839B70 /* RemoteGetCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1AA2A26ABFB00839B70 /* RemoteGetCharacters.swift */; };
 		3FCFE1AD2A26AC0600839B70 /* RemoteGetCommics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1AC2A26AC0600839B70 /* RemoteGetCommics.swift */; };
 		3FCFE1AF2A26AC1500839B70 /* RemoteCreators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1AE2A26AC1500839B70 /* RemoteCreators.swift */; };
+		3FCFE1B72A275E4B00839B70 /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1B62A275E4B00839B70 /* XCTestCase+Extension.swift */; };
+		3FCFE1B92A275ED000839B70 /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFE1B82A275ED000839B70 /* TestFactories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		3FCFE1AA2A26ABFB00839B70 /* RemoteGetCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGetCharacters.swift; sourceTree = "<group>"; };
 		3FCFE1AC2A26AC0600839B70 /* RemoteGetCommics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGetCommics.swift; sourceTree = "<group>"; };
 		3FCFE1AE2A26AC1500839B70 /* RemoteCreators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCreators.swift; sourceTree = "<group>"; };
+		3FCFE1B62A275E4B00839B70 /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extension.swift"; sourceTree = "<group>"; };
+		3FCFE1B82A275ED000839B70 /* TestFactories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		3FCFE1792A26A2DE00839B70 = {
 			isa = PBXGroup;
 			children = (
+				3FCFE1B12A275D8B00839B70 /* ComicVerseDataTests */,
 				3FCFE1852A26A2DE00839B70 /* ComicVerseData */,
 				3FCFE1842A26A2DE00839B70 /* Products */,
 				3FCFE18D2A26A2FA00839B70 /* Frameworks */,
@@ -133,6 +138,39 @@
 			children = (
 				3FCFE19C2A26A3E200839B70 /* HTTPError.swift */,
 				3FCFE19E2A26A46600839B70 /* HTTPGetClient.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		3FCFE1B12A275D8B00839B70 /* ComicVerseDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE1B42A275DBA00839B70 /* HTTP */,
+				3FCFE1B32A275DB000839B70 /* UseCases */,
+				3FCFE1B22A275DA600839B70 /* Helpers */,
+			);
+			path = ComicVerseDataTests;
+			sourceTree = "<group>";
+		};
+		3FCFE1B22A275DA600839B70 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFE1B62A275E4B00839B70 /* XCTestCase+Extension.swift */,
+				3FCFE1B82A275ED000839B70 /* TestFactories.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3FCFE1B32A275DB000839B70 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		3FCFE1B42A275DBA00839B70 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -239,6 +277,8 @@
 				3FCFE1AD2A26AC0600839B70 /* RemoteGetCommics.swift in Sources */,
 				3FCFE19F2A26A46600839B70 /* HTTPGetClient.swift in Sources */,
 				3FCFE19D2A26A3E200839B70 /* HTTPError.swift in Sources */,
+				3FCFE1B72A275E4B00839B70 /* XCTestCase+Extension.swift in Sources */,
+				3FCFE1B92A275ED000839B70 /* TestFactories.swift in Sources */,
 				3FCFE19B2A26A36200839B70 /* Data+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
