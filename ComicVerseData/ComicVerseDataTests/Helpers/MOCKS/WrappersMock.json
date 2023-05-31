@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "", ""
+  },
+  "etag": "abc123",
+  "copyright": "© 2023 Marvel",
+  "attributionText": "Data provided by MarvelAPI",
+  "attributionHTML": "<p>Data provided by MarvelAI</p>"
+}

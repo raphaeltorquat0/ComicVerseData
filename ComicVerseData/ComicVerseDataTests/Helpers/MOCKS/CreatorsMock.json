@@ -1,0 +1,81 @@
+{
+  "id": 123,
+  "firstName": "John",
+  "middleName": "M.",
+  "lastName": "Doe",
+  "suffix": "Jr.",
+  "fullName": "John M. Doe Jr.",
+  "modified": "2023-05-30T12:00:00Z",
+  "resourceURI": "http://example.com/creators/123",
+  "urls": [
+    {
+      "type": "detail",
+      "url": "http://example.com/creators/123/detail"
+    },
+    {
+      "type": "wiki",
+      "url": "http://example.com/creators/123/wiki"
+    }
+  ],
+  "thumbnail": {
+    "path": "http://example.com/thumbnails/123",
+    "extension": "jpg"
+  },
+  "series": {
+    "available": 5,
+    "collectionURI": "http://example.com/creators/123/series",
+    "items": [
+      {
+        "resourceURI": "http://example.com/series/1",
+        "name": "Series 1"
+      },
+      {
+        "resourceURI": "http://example.com/series/2",
+        "name": "Series 2"
+      }
+    ]
+  },
+  "stories": {
+    "available": 10,
+    "collectionURI": "http://example.com/creators/123/stories",
+    "items": [
+      {
+        "resourceURI": "http://example.com/stories/1",
+        "name": "Story 1"
+      },
+      {
+        "resourceURI": "http://example.com/stories/2",
+        "name": "Story 2"
+      }
+    ]
+  },
+  "comics": {
+    "available": 15,
+    "collectionURI": "http://example.com/creators/123/comics",
+    "items": [
+      {
+        "resourceURI": "http://example.com/comics/1",
+        "name": "Comic 1"
+      },
+      {
+        "resourceURI": "http://example.com/comics/2",
+        "name": "Comic 2"
+      }
+    ]
+  },
+  "events": {
+    "available": 3,
+    "collectionURI": "http://example.com/creators/123/events",
+    "items": [
+      {
+        "resourceURI": "http://example.com/events/1",
+        "name": "Event 1"
+      },
+      {
+        "resourceURI": "http://example.com/events/2",
+        "name": "Event 2"
+      }
+    ]
+  }
+}
+
