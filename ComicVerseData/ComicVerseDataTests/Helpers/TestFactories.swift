@@ -7,10 +7,6 @@
 
 import Foundation
 
-func makeInvalidCredentials() -> Data {
-    return Data["InvalidCredentials".utf8]
-}
-
 func makeEmptyData() -> Data {
     return Data()
 }
@@ -24,5 +20,5 @@ func makeError() -> Error {
 }
 
 func makeHTTPResponse(statusCode: Int = 200) -> HTTPURLResponse {
-    return HTTPURLResponse(url: makeURL(), statusCode: statusCode, httpVersion: nil, headerFields: nil)
+    return HTTPURLResponse(url: makeURL(), statusCode: statusCode, httpVersion: nil, headerFields: nil)!
 }

@@ -17,7 +17,7 @@ public final class RemoteGetCommics: GetCommics {
         self.httpClient = httpClient
     }
     
-    public func get(getCommicsModel: GetCommicsModel, completion: @escaping (GetCommics.Result) -> Void) {
+    public func get(getCommicsModel: CommicsModel, completion: @escaping (GetCommics.Result) -> Void) {
         httpClient.get(to: url, with: getCommicsModel.toData()) { [weak self] result in
             guard self != nil else { return }
             switch result {

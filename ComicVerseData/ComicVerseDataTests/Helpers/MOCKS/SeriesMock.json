@@ -1,0 +1,107 @@
+{
+  "id": 123,
+  "title": "Amazing Series",
+  "description": "An incredible series that will captivate readers!",
+  "resourceURI": "http://example.com/series/123",
+  "urls": [
+    {
+      "type": "detail",
+      "url": "http://example.com/series/123/detail"
+    },
+    {
+      "type": "wiki",
+      "url": "http://example.com/series/123/wiki"
+    }
+  ],
+  "startYear": 2010,
+  "endYear": 2022,
+  "rating": "PG",
+  "modified": "2023-05-30T12:00:00Z",
+  "thumbnail": {
+    "path": "http://example.com/thumbnails/123",
+    "extension": "jpg"
+  },
+  "comics": {
+    "available": 10,
+    "collectionURI": "http://example.com/series/123/comics",
+    "items": [
+      {
+        "resourceURI": "http://example.com/comics/1",
+        "name": "Comic 1"
+      },
+      {
+        "resourceURI": "http://example.com/comics/2",
+        "name": "Comic 2"
+      }
+    ]
+  },
+  "stories": {
+    "available": 5,
+    "collectionURI": "http://example.com/series/123/stories",
+    "items": [
+      {
+        "resourceURI": "http://example.com/stories/1",
+        "name": "Story 1"
+      },
+      {
+        "resourceURI": "http://example.com/stories/2",
+        "name": "Story 2"
+      }
+    ]
+  },
+  "events": {
+    "available": 2,
+    "collectionURI": "http://example.com/series/123/events",
+    "items": [
+      {
+        "resourceURI": "http://example.com/events/1",
+        "name": "Event 1"
+      },
+      {
+        "resourceURI": "http://example.com/events/2",
+        "name": "Event 2"
+      }
+    ]
+  },
+  "characters": {
+    "available": 3,
+    "collectionURI": "http://example.com/series/123/characters",
+    "items": [
+      {
+        "resourceURI": "http://example.com/characters/1",
+        "name": "Character 1"
+      },
+      {
+        "resourceURI": "http://example.com/characters/2",
+        "name": "Character 2"
+      },
+      {
+        "resourceURI": "http://example.com/characters/3",
+        "name": "Character 3"
+      }
+    ]
+  },
+  "creators": {
+    "available": 2,
+    "collectionURI": "http://example.com/series/123/creators",
+    "items": [
+      {
+        "resourceURI": "http://example.com/creators/1",
+        "name": "Creator 1"
+      },
+      {
+        "resourceURI": "http://example.com/creators/2",
+        "name": "Creator 2"
+      }
+    ]
+  },
+  "next": {
+    "resourceURI": "http://example.com/series/124",
+    "name": "Next Series"
+  },
+  "previous": {
+    "resourceURI": "http://example.com/series/122",
+    "name": "Previous Series"
+  }
+}
+
